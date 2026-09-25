@@ -1,19 +1,13 @@
-import os, sys, math
-
-x = 10
-
-def Bad_Function_Name( A, B, C, D, E, F ):
-    global x
-    l = 1; O = 0
-    if A == True:
-        if B == False:
-            if C == None:
-                try:
-                    print(eval("A + B"))
-                    res = E[0] + F + l + O
-                except:
-                    pass
+def bad_function(var_A, var_B, var_C, var_E, var_F, var_G): 
+    var_l = 1
+    var_o = 0
+    if var_A is True and var_B is False and var_C is None:
+        try:
+            print(var_A + var_B)
+            res = var_E + var_F[0] + var_l + var_o
+        except:
+            pass
     else:
         return None
 
-Bad_Function_Name(True, False, None, 1, [2], 3)
+bad_function(True, False, None, 1, [2], 3)
