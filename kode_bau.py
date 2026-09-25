@@ -1,5 +1,8 @@
-def bad_function_name(a, b, c, d, e, f):
-    """Menghitung hasil jika kondisi a, b, dan c terpenuhi."""
+"""Modul untuk melakukan perhitungan berdasarkan kondisi tertentu."""
+
+
+def bad_function_name(a, b, c, e, f):
+    """Menghitung hasil apabila seluruh kondisi terpenuhi."""
     if a is True and b is False and c is None:
         try:
             result = a + b
@@ -12,4 +15,4 @@ def bad_function_name(a, b, c, d, e, f):
 
 
 if __name__ == "__main__":
-    bad_function_name(True, False, None, 1, [2], 3)
+    bad_function_name(True, False, None, [2], 3)
